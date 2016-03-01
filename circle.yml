@@ -1,2 +1,5 @@
 general:
   build_dir: helloworld
+machine:
+  ruby:
+    version: rbx-2.1.5
