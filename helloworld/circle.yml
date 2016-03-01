@@ -1,1 +1,6 @@
 ---
+test:
+  post:
+    - bundle exec rake spec:
+        environment:
+          RAILS_ENV: test
