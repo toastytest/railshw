@@ -6,4 +6,8 @@ RSpec.describe "hello/index.html.erb", :type => :view do
     render
     expect(rendered).to match /Hello World/
   end
+  it "still displays hello world" do
+    render
+    expect(rendered).to match /Hello World/
+  end
 end
